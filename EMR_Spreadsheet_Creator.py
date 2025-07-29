@@ -4,8 +4,8 @@ import pandas as pd
 import re
 
 # Folder path where your PDF files are stored
-folder_path = r"C:\Users\dominguezj\Documents\python\Master List and IDs\EMRs"
-output_excel = r"C:\Users\dominguezj\Documents\python\Master List and IDs\EMRs\EMR_Spreadsheet_Results.xlsx"
+folder_path = r"\python\Master List and IDs\EMRs"
+output_excel = r"\python\Master List and IDs\EMRs\EMR_Spreadsheet_Results.xlsx"
 
 # Regular expression pattern to match the data format
 pattern = re.compile(
